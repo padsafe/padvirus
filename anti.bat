@@ -12,3 +12,15 @@ cd C:\Windows\system32
 :infected1
 echo Infected file detected. We are cleaning it up right now!
 del virus.bat
+
+:infected2
+echo Infected file detected. We are cleaning it up right now!
+del Virus.bat
+
+:infected3
+echo Infected file detected. We are cleaning it up right now!
+del virus.exe
+
+:infected4
+echo Infected file detected. We are cleaning it up right now!
+del Virus.exe
