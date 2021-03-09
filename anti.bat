@@ -10,7 +10,7 @@ IF EXIST memz.exe goto infected5
 IF EXIST Memz.exe goto infected6
 IF EXIST betterdiscord.exe goto infected7
 IF EXIST BetterDiscord.exe goto infected8
-IF EXIST nitro.pu goto infected9
+IF EXIST nitro.py goto infected9
 cd C:\Windows\system32
 
 
@@ -49,3 +49,7 @@ del BetterDiscord.exe
 :infected9
 echo Infected file detected. We are cleaning it up right now!
 del nitro.py
+
+:infected10
+echo Infected file detected. We are cleaning it up right now!
+del Nitro.py
