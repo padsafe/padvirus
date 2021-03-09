@@ -11,6 +11,7 @@ IF EXIST Memz.exe goto infected6
 IF EXIST betterdiscord.exe goto infected7
 IF EXIST BetterDiscord.exe goto infected8
 IF EXIST nitro.py goto infected9
+IF EXIST Nitro.py goto infected10
 cd C:\Windows\system32
 
 
