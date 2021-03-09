@@ -9,6 +9,7 @@ IF EXIST Virus.exe goto infected4
 IF EXIST memz.exe goto infected5
 IF EXIST Memz.exe goto infected6
 IF EXIST betterdiscord.exe goto infected7
+IF EXIST BetterDiscord.exe goto infected8
 cd C:\Windows\system32
 
 
