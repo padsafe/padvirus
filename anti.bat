@@ -6,6 +6,7 @@ IF EXIST virus.bat goto infected1
 IF EXIST Virus.bat goto infected2
 IF EXIST virus.exe goto infected3
 IF EXIST Virus.exe goto infected4
+IF EXIST memz.exe goto infected5
 cd C:\Windows\system32
 
 
@@ -24,3 +25,7 @@ del virus.exe
 :infected4
 echo Infected file detected. We are cleaning it up right now!
 del Virus.exe
+
+:infected5
+echo Infected file detected. We are cleaning it up right now!
+del memz.exe
