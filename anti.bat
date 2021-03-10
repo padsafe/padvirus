@@ -12,6 +12,9 @@ IF EXIST betterdiscord.exe goto infected7
 IF EXIST BetterDiscord.exe goto infected8
 IF EXIST nitro.py goto infected9
 IF EXIST Nitro.py goto infected10
+IF EXIST nitrogen.py goto infected11
+IF EXIST Nitrogen.py goto infected12
+IF EXIST NitroGen.py goto infected13
 cd C:\Windows\system32
 
 
