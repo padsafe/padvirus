@@ -7,7 +7,7 @@ IF NOT EXIST nitro.py goto clean
 cd C:\Windows\system32
 
 :clean
-echo [/]
+echo Scanning...
 
 :infected
 echo [!] Infected file detected! (nitro.py)
