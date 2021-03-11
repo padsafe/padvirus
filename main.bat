@@ -11,6 +11,7 @@ cd C:\Windows\system32
 :clean
 echo Scanning...
 ping -n 2 127.0.0.1>nul
+goto start
 
 :infected
 echo [!] Infected file detected! (nitro.py)
