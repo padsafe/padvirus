@@ -5,7 +5,7 @@ echo Scanning...
 IF EXIST nitro.py goto infected
 IF NOT EXIST nitro.py goto clean
 IF EXIST Nitro.py goto infected1
-IF NOT EXISR Nitro.py goto clean
+IF NOT EXIST Nitro.py goto clean
 cd C:\Windows\system32
 
 :clean
