@@ -1,5 +1,5 @@
 @echo off
-title PadVirus Antivirus Free Edition
+title PadVirus Antivirus Free Edition echo test
 echo Scanning...
 :start
 IF EXIST nitro.py goto infected
